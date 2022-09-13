@@ -5,6 +5,7 @@ import React from 'react'
 import { TouchableOpacity } from 'react-native-gesture-handler'
 import { Button, Text, View,  } from 'react-native'
 import { styles } from '../theme/appTheme'
+import Icon from 'react-native-vector-icons/dist/Ionicons';
 
 // interface Props extends DrawerScreenProps<any, any> { };
 interface Props extends StackScreenProps<any, any> { };
@@ -41,6 +42,7 @@ export const Pagina1Screen = ({ navigation }: Props) => {
             nombre: 'Pedro',
           })}
         >
+          <Icon name="man-outline" size={40} style={{color:'white'}}/>
           <Text style={styles.botonGrandeTexto}>Pedro</Text>
         </TouchableOpacity>
         <TouchableOpacity
@@ -53,6 +55,7 @@ export const Pagina1Screen = ({ navigation }: Props) => {
             nombre: 'Maria',
           })}
         >
+          <Icon name="woman-outline" size={40} style={{color:'white'}}/>
           <Text style={styles.botonGrandeTexto}>María</Text>
         </TouchableOpacity>
       </View>
