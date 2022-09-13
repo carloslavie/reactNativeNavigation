@@ -6,7 +6,7 @@ import {useWindowDimensions} from 'react-native'
 import {View, Image, Text, TouchableOpacity} from 'react-native'
 import { styles } from '../theme/appTheme';
 import { Tabs } from './Tabs';
-import Icon from 'react-native-vector-icons/dist/Ionicons';
+import Icon from 'react-native-vector-icons/Ionicons';
 
 const Drawer = createDrawerNavigator();
 

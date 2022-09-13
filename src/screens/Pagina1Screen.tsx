@@ -5,7 +5,7 @@ import React from 'react'
 import { TouchableOpacity } from 'react-native-gesture-handler'
 import { Button, Text, View,  } from 'react-native'
 import { styles } from '../theme/appTheme'
-import Icon from 'react-native-vector-icons/dist/Ionicons';
+import Icon from 'react-native-vector-icons/Ionicons';
 
 // interface Props extends DrawerScreenProps<any, any> { };
 interface Props extends StackScreenProps<any, any> { };

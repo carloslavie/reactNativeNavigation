@@ -7,7 +7,7 @@ import { colores } from '../theme/appTheme';
 import { Platform, Text } from 'react-native';
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
 import { TopTabsNAvigator } from './TopTabsNavigator';
-import Icon from 'react-native-vector-icons/dist/Ionicons';
+import Icon from 'react-native-vector-icons/Ionicons';
 
 export const Tabs = ()=>{
 
@@ -38,7 +38,7 @@ const TabsIOS = () => {
           tabBarLabelStyle:{
             fontSize:15,
           },
-          tabBarIcon: ({color,focused,size})=>{
+          tabBarIcon: ({color})=>{
             let iconName: string = '';
             switch (route.name) {
               case 'Tab1Screen':
@@ -85,7 +85,7 @@ const TabsAndroid = () => {
         tabBarLabelStyle:{
           fontSize:15,
         },
-        tabBarIcon: ({color,focused})=>{
+        tabBarIcon: ({color})=>{
           let iconName: string = '';
           switch (route.name) {
             case 'Tab1Screen':
