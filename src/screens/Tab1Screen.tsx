@@ -1,22 +1,22 @@
 import React from 'react';
-import Icon from 'react-native-vector-icons/Ionicons';
 import { View,Text } from 'react-native';
 import { styles } from '../theme/appTheme';
+import { TouchableIcon } from '../components/TouchableIcon';
 
 export const Tab1Screen = () => {
   return (
     <View style={styles.globalMargin}>
         <Text style={styles.title}>Iconos</Text>
         <Text>
-        <Icon name="rocket" size={80} color="#900"/>
-        <Icon name="body-outline" size={80} color="#900"/>
-        <Icon name="airplane-outline" size={80} color="#900"/>
-        <Icon name="cash-outline" size={80} color="#900"/>
-        <Icon name="color-palette-outline" size={80} color="#900"/>
-        <Icon name="flower-outline" size={80} color="#900"/>
-        <Icon name="happy-outline" size={80} color="#900"/>
-        <Icon name="magnet-outline" size={80} color="#900"/>
+          <TouchableIcon name="rocket" size={80} color="#900" />
+          <TouchableIcon name="body-outline" size={80} color="#900"/>
+          <TouchableIcon name="airplane-outline" size={80} color="#900"/>
+          <TouchableIcon name="cash-outline" size={80} color="#900"/>
+          <TouchableIcon name="color-palette-outline" size={80} color="#900"/>
+          <TouchableIcon name="flower-outline" size={80} color="#900"/>
+          <TouchableIcon name="happy-outline" size={80} color="#900"/>
+          <TouchableIcon name="magnet-outline" size={80} color="#900"/>
         </Text>
     </View>
-  )
-}
+  );
+};

@@ -48,7 +48,7 @@ export const Pagina1Screen = ({ navigation }: Props) => {
         <TouchableOpacity
           style={{
             ...styles.botonGrande,
-            backgroundColor:'#FF9427'
+            backgroundColor:'#ff27d0'
           }}
           onPress={() => navigation.navigate('PersonaScreen', {
             id: 2,
@@ -56,7 +56,7 @@ export const Pagina1Screen = ({ navigation }: Props) => {
           })}
         >
           <Icon name="woman-outline" size={40} style={{color:'white'}}/>
-          <Text style={styles.botonGrandeTexto}>María</Text>
+          <Text style={styles.botonGrandeTexto}>Flor</Text>
         </TouchableOpacity>
       </View>
     </View>
